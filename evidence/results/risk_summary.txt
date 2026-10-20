@@ -1,0 +1,15 @@
+Healthcare IoT Security Risk Assessment
+---------------------------------------
+Total assets assessed: 20
+Critical risks: 0
+High risks: 5
+Medium risks: 12
+Low risks: 3
+Validation: PASSED
+
+Top 5 prioritised assets:
+IOT-015 | Score: 8 | High | Outdated firmware; Security monitoring disabled
+IOT-016 | Score: 8 | High | Outdated firmware; Security monitoring disabled
+IOT-018 | Score: 8 | High | Firmware status requires verification; Security monitoring disabled
+IOT-008 | Score: 7 | High | Firmware status requires verification; Security monitoring disabled
+IOT-020 | Score: 7 | High | Outdated firmware

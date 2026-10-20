@@ -1,0 +1,21 @@
+asset_id,device_type,ip_address,criticality,firmware_status,security_monitoring,network_zone,risk_score,risk_level,security_findings
+IOT-015,Environmental Sensor,192.0.2.25,Medium,Outdated,Disabled,Medical-IoT,8,High,Outdated firmware; Security monitoring disabled
+IOT-016,Medication Dispenser,192.0.2.26,Medium,Outdated,Disabled,Medical-IoT,8,High,Outdated firmware; Security monitoring disabled
+IOT-018,Infusion Pump,192.0.2.28,High,Unknown,Disabled,Facilities-IoT,8,High,Firmware status requires verification; Security monitoring disabled
+IOT-008,Medication Dispenser,192.0.2.18,Medium,Unknown,Disabled,Medical-IoT,7,High,Firmware status requires verification; Security monitoring disabled
+IOT-020,ECG Monitor,192.0.2.30,High,Outdated,Enabled,Facilities-IoT,7,High,Outdated firmware
+IOT-001,Patient Monitor,192.0.2.11,High,Current,Disabled,Facilities-IoT,6,Medium,Security monitoring disabled
+IOT-003,Smart Thermometer,192.0.2.13,Low,Unknown,Disabled,Facilities-IoT,6,Medium,Firmware status requires verification; Security monitoring disabled
+IOT-005,Medical Imaging Device,192.0.2.15,High,Unknown,Enabled,Facilities-IoT,6,Medium,Firmware status requires verification
+IOT-006,Smart Bed,192.0.2.16,Low,Unknown,Disabled,Facilities-IoT,6,Medium,Firmware status requires verification; Security monitoring disabled
+IOT-010,Infusion Pump,192.0.2.20,Medium,Current,Disabled,Clinical-Network,6,Medium,Security monitoring disabled; Clinical network exposure requires review
+IOT-019,Smart Thermometer,192.0.2.29,Low,Outdated,Enabled,Clinical-Network,6,Medium,Outdated firmware; Clinical network exposure requires review
+IOT-007,Environmental Sensor,192.0.2.17,Low,Outdated,Enabled,Medical-IoT,5,Medium,Outdated firmware
+IOT-011,Smart Thermometer,192.0.2.21,Medium,Unknown,Enabled,Medical-IoT,5,Medium,Firmware status requires verification
+IOT-012,ECG Monitor,192.0.2.22,Low,Current,Disabled,Clinical-Network,5,Medium,Security monitoring disabled; Clinical network exposure requires review
+IOT-002,Infusion Pump,192.0.2.12,High,Current,Enabled,Medical-IoT,4,Medium,No flagged gaps in assessed attributes
+IOT-004,ECG Monitor,192.0.2.14,High,Current,Enabled,Medical-IoT,4,Medium,No flagged gaps in assessed attributes
+IOT-017,Patient Monitor,192.0.2.27,Low,Unknown,Enabled,Facilities-IoT,4,Medium,Firmware status requires verification
+IOT-009,Patient Monitor,192.0.2.19,Medium,Current,Enabled,Medical-IoT,3,Low,No flagged gaps in assessed attributes
+IOT-014,Smart Bed,192.0.2.24,Medium,Current,Enabled,Facilities-IoT,3,Low,No flagged gaps in assessed attributes
+IOT-013,Medical Imaging Device,192.0.2.23,Low,Current,Enabled,Facilities-IoT,2,Low,No flagged gaps in assessed attributes
