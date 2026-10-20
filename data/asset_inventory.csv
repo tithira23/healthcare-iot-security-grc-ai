@@ -1,0 +1,21 @@
+asset_id,device_type,manufacturer,ip_address,network_zone,firmware_status,criticality,asset_owner,security_monitoring
+IOT-001,Patient Monitor,FictionalVendor-2,192.0.2.11,Facilities-IoT,Current,High,Facilities Management,Disabled
+IOT-002,Infusion Pump,FictionalVendor-3,192.0.2.12,Medical-IoT,Current,High,Facilities Management,Enabled
+IOT-003,Smart Thermometer,FictionalVendor-4,192.0.2.13,Facilities-IoT,Unknown,Low,Clinical Engineering,Disabled
+IOT-004,ECG Monitor,FictionalVendor-1,192.0.2.14,Medical-IoT,Current,High,Clinical Engineering,Enabled
+IOT-005,Medical Imaging Device,FictionalVendor-2,192.0.2.15,Facilities-IoT,Unknown,High,Facilities Management,Enabled
+IOT-006,Smart Bed,FictionalVendor-3,192.0.2.16,Facilities-IoT,Unknown,Low,Facilities Management,Disabled
+IOT-007,Environmental Sensor,FictionalVendor-4,192.0.2.17,Medical-IoT,Outdated,Low,IT Infrastructure,Enabled
+IOT-008,Medication Dispenser,FictionalVendor-1,192.0.2.18,Medical-IoT,Unknown,Medium,IT Infrastructure,Disabled
+IOT-009,Patient Monitor,FictionalVendor-2,192.0.2.19,Medical-IoT,Current,Medium,Clinical Engineering,Enabled
+IOT-010,Infusion Pump,FictionalVendor-3,192.0.2.20,Clinical-Network,Current,Medium,IT Infrastructure,Disabled
+IOT-011,Smart Thermometer,FictionalVendor-4,192.0.2.21,Medical-IoT,Unknown,Medium,Facilities Management,Enabled
+IOT-012,ECG Monitor,FictionalVendor-1,192.0.2.22,Clinical-Network,Current,Low,IT Infrastructure,Disabled
+IOT-013,Medical Imaging Device,FictionalVendor-2,192.0.2.23,Facilities-IoT,Current,Low,Clinical Engineering,Enabled
+IOT-014,Smart Bed,FictionalVendor-3,192.0.2.24,Facilities-IoT,Current,Medium,Clinical Engineering,Enabled
+IOT-015,Environmental Sensor,FictionalVendor-4,192.0.2.25,Medical-IoT,Outdated,Medium,IT Infrastructure,Disabled
+IOT-016,Medication Dispenser,FictionalVendor-1,192.0.2.26,Medical-IoT,Outdated,Medium,Clinical Engineering,Disabled
+IOT-017,Patient Monitor,FictionalVendor-2,192.0.2.27,Facilities-IoT,Unknown,Low,Clinical Engineering,Enabled
+IOT-018,Infusion Pump,FictionalVendor-3,192.0.2.28,Facilities-IoT,Unknown,High,Clinical Engineering,Disabled
+IOT-019,Smart Thermometer,FictionalVendor-4,192.0.2.29,Clinical-Network,Outdated,Low,Facilities Management,Enabled
+IOT-020,ECG Monitor,FictionalVendor-1,192.0.2.30,Facilities-IoT,Outdated,High,Clinical Engineering,Enabled
