@@ -1,0 +1,18 @@
+Healthcare IoT GRC Control Gap Assessment
+----------------------------------------
+Assets reviewed: 20
+NIST CSF mappings defined: 4
+Potential control gaps: 24
+
+Findings by category:
+Clinical network exposure requires review: 3
+Firmware status requires verification: 7
+Outdated firmware: 5
+Security monitoring disabled: 9
+
+Assessment status: Requires Review
+Validation: PASSED
+
+Note: Findings are generated from synthetic data.
+They require evidence-based verification before
+any formal compliance or control-effectiveness claim.

@@ -1,0 +1,5 @@
+security_finding,nist_csf_2_control,control_description,recommended_action
+Outdated firmware,ID.RA-05,Risk prioritisation,Review firmware vulnerabilities and prioritise approved updates or compensating controls
+Firmware status requires verification,ID.AM-08,Asset lifecycle management,"Verify firmware version, support status and device lifecycle records"
+Security monitoring disabled,DE.CM-01,Network monitoring,Assess passive monitoring or an approved alternative monitoring control
+Clinical network exposure requires review,PR.IR-01,Network and environment protection,"Review segmentation, allowed communication paths and firewall policy"

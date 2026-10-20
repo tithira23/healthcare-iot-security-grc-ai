@@ -1,0 +1,25 @@
+asset_id,device_type,risk_score,risk_level,security_finding,nist_csf_2_control,recommended_action,assessment_status
+IOT-015,Environmental Sensor,8,High,Outdated firmware,ID.RA-05,Review firmware vulnerabilities and prioritise approved updates or compensating controls,Requires Review
+IOT-015,Environmental Sensor,8,High,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-016,Medication Dispenser,8,High,Outdated firmware,ID.RA-05,Review firmware vulnerabilities and prioritise approved updates or compensating controls,Requires Review
+IOT-016,Medication Dispenser,8,High,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-018,Infusion Pump,8,High,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-018,Infusion Pump,8,High,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-008,Medication Dispenser,7,High,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-008,Medication Dispenser,7,High,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-020,ECG Monitor,7,High,Outdated firmware,ID.RA-05,Review firmware vulnerabilities and prioritise approved updates or compensating controls,Requires Review
+IOT-001,Patient Monitor,6,Medium,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-003,Smart Thermometer,6,Medium,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-003,Smart Thermometer,6,Medium,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-005,Medical Imaging Device,6,Medium,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-006,Smart Bed,6,Medium,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-006,Smart Bed,6,Medium,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-010,Infusion Pump,6,Medium,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-010,Infusion Pump,6,Medium,Clinical network exposure requires review,PR.IR-01,"Review segmentation, allowed communication paths and firewall policy",Requires Review
+IOT-019,Smart Thermometer,6,Medium,Outdated firmware,ID.RA-05,Review firmware vulnerabilities and prioritise approved updates or compensating controls,Requires Review
+IOT-019,Smart Thermometer,6,Medium,Clinical network exposure requires review,PR.IR-01,"Review segmentation, allowed communication paths and firewall policy",Requires Review
+IOT-007,Environmental Sensor,5,Medium,Outdated firmware,ID.RA-05,Review firmware vulnerabilities and prioritise approved updates or compensating controls,Requires Review
+IOT-011,Smart Thermometer,5,Medium,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
+IOT-012,ECG Monitor,5,Medium,Security monitoring disabled,DE.CM-01,Assess passive monitoring or an approved alternative monitoring control,Requires Review
+IOT-012,ECG Monitor,5,Medium,Clinical network exposure requires review,PR.IR-01,"Review segmentation, allowed communication paths and firewall policy",Requires Review
+IOT-017,Patient Monitor,4,Medium,Firmware status requires verification,ID.AM-08,"Verify firmware version, support status and device lifecycle records",Requires Review
