@@ -1,0 +1,33 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite3
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# Local AI models
+*.gguf
+
+# Operating system files
+.DS_Store
+Thumbs.db
