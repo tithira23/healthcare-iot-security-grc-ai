@@ -1,0 +1,25 @@
+Healthcare IoT ML Anomaly Detection
+-----------------------------------
+Algorithm: Isolation Forest
+Training samples: 500
+Test messages: 10
+Actual anomalies: 2
+Predicted anomalies: 2
+
+Confusion Matrix:
+True Positives: 2
+True Negatives: 8
+False Positives: 0
+False Negatives: 0
+
+Precision: 1.00
+Recall: 1.00
+F1-score: 1.00
+
+Validation: PASSED
+
+Limitations:
+Synthetic training and test data only.
+Ten test messages are insufficient to
+establish real-world detection performance.
+Clinical thresholds are not validated.

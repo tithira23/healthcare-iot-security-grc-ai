@@ -1,0 +1,11 @@
+timestamp,asset_id,device_type,heart_rate,spo2,scenario_label,predicted_label,anomaly_score,correct_prediction
+2026-11-01T20:25:07.344833+00:00,IOT-001,Patient Monitor,75,98,Normal,Normal,0.2251,True
+2026-11-01T20:25:07.845559+00:00,IOT-002,Infusion Pump,78,97,Normal,Normal,0.1769,True
+2026-11-01T20:25:08.748220+00:00,IOT-004,ECG Monitor,72,99,Normal,Normal,0.1514,True
+2026-11-01T20:25:09.310054+00:00,IOT-001,Patient Monitor,80,98,Normal,Normal,0.209,True
+2026-11-01T20:25:09.814646+00:00,IOT-002,Infusion Pump,145,82,Anomaly,Anomaly,-0.1287,True
+2026-11-01T20:25:10.317531+00:00,IOT-004,ECG Monitor,76,98,Normal,Normal,0.2278,True
+2026-11-01T20:25:10.821112+00:00,IOT-001,Patient Monitor,74,99,Normal,Normal,0.1773,True
+2026-11-01T20:25:11.323857+00:00,IOT-002,Infusion Pump,155,79,Anomaly,Anomaly,-0.1287,True
+2026-11-01T20:25:11.838447+00:00,IOT-004,ECG Monitor,77,97,Normal,Normal,0.1855,True
+2026-11-01T20:25:12.344426+00:00,IOT-001,Patient Monitor,73,98,Normal,Normal,0.2065,True
