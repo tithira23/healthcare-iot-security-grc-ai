@@ -177,12 +177,13 @@ st.divider()
 # 5. DASHBOARD TABS
 # ==================================================
 
-tab1, tab2, tab3, tab4 = st.tabs(
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
     [
         "📦 Asset Inventory",
         "⚠️ Risk Assessment",
         "📋 GRC Assessment",
         "🤖 ML Anomaly Detection",
+        "🧠 AI Security Assistant",
     ]
 )
 
@@ -445,6 +446,69 @@ with tab4:
         "Model evaluation is based on a small synthetic "
         "dataset and does not demonstrate real-world accuracy."
     )
+
+
+# ==================================================
+# TAB 5 — AI SECURITY ASSISTANT (MILESTONE 6B.4)
+# ==================================================
+
+with tab5:
+    st.subheader("AI Security Assistant — Local Ollama")
+    st.caption(
+        "Evidence-first reports using Python-verified data and "
+        "Qwen 2.5 (1.5B) via local Ollama."
+    )
+    st.warning(
+        "AI-generated advice is not verified evidence. This is a "
+        "synthetic educational laboratory; all recommendations "
+        "require human review before any real-world action."
+    )
+
+    analysis_options = [
+        "Security Posture Report",
+        "Anomaly Investigation",
+        "GRC Assessment",
+    ]
+    selected_analysis = st.selectbox(
+        "Select analysis type", analysis_options, key="ai_analysis_type"
+    )
+
+    if st.button("Generate AI Report", type="primary", key="generate_ai_report"):
+        try:
+            # Import on demand so the original four tabs work even if
+            # the Ollama integration is unavailable.
+            from ai_security_assistant import generate_analysis
+
+            with st.spinner("Generating and validating local AI advisory..."):
+                report = generate_analysis(selected_analysis)
+            st.session_state["ai_report"] = report
+            st.session_state["ai_report_type"] = selected_analysis
+            st.session_state.pop("ai_report_error", None)
+        except Exception as exc:
+            st.session_state.pop("ai_report", None)
+            st.session_state["ai_report_error"] = str(exc)
+
+    if "ai_report_error" in st.session_state:
+        st.error("Could not generate report: " + st.session_state["ai_report_error"])
+        st.info(
+            "Check that Ollama is running, the qwen2.5:1.5b model is "
+            "installed, and src/ai_security_assistant.py is present."
+        )
+
+    if "ai_report" in st.session_state:
+        st.success(
+            "Report generated: " + st.session_state.get("ai_report_type", "")
+        )
+        st.markdown(st.session_state["ai_report"])
+        st.download_button(
+            "Download AI Report (Markdown)",
+            data=st.session_state["ai_report"],
+            file_name="ai_security_report.md",
+            mime="text/markdown",
+            key="download_ai_report",
+        )
+    else:
+        st.info("Choose an analysis type and select Generate AI Report.")
 
 
 # ==================================================
