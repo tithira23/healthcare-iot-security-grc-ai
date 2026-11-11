@@ -211,15 +211,15 @@ The project includes milestone screenshots under [`evidence/`](evidence/). The f
 
 ### E17 — Security Posture Report
 
-![AI Security Assistant — Security Posture Report](evidence\screenshots\E17_AI_Security_Posture.png)
+![AI Security Assistant — Security Posture Report](evidence/screenshots/E17_AI_Security_Posture.png)
 
 ### E18 — Anomaly Investigation
 
-![AI Security Assistant — Anomaly Investigation](evidence\screenshots\E18_AI_Anomaly_Investigation.png)
+![AI Security Assistant — Anomaly Investigation](evidence/screenshots/E18_AI_Anomaly_Investigation.png)
 
 ### E19 — GRC Assessment
 
-![AI Security Assistant — GRC Assessment](evidence\screenshots\E19_AI_GRC_Assessment.png)
+![AI Security Assistant — GRC Assessment](evidence/screenshots/E19_AI_GRC_Assessment.png)
 
 Earlier evidence **E01–E16** documents the inventory, risk, GRC, telemetry, ML and dashboard milestones. See the [`evidence/` folder](evidence/) for the available screenshots.
 
